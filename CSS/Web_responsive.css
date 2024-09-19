@@ -5,6 +5,59 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
+header{
+    display: flex;
+    height: 8vw;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* LOGO */
+header img{
+    width: 8%;
+    position: relative;
+    top: 15px;
+}
+
+/* HEADER LINK */
+.menu a{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 32px;
+    font-size: 28.5px;
+    letter-spacing: 0.5px;
+    transition: 0.4s;
+    position: relative;
+    right: 500px;
+}
+
+.mostrar_menu,
+.esconder_menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar_menu{
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar_menu:hover,
+.esconder_menu:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+#check{
+    display: none;
+}
+
 /* FIRST_FRAME */
 .first_frame{
     width: 100%;
@@ -19,7 +72,6 @@
     padding: 0 60px;
     
 }
-
 
 .contactos img{
    position: relative;
@@ -52,8 +104,14 @@
 .redes{
     width: 10%;
     position: relative;
-    left: 1350px;
-    bottom: 45px;
+    left: 1325px;
+    bottom: 44px;
+}
+
+/*ICONOS DE USUARIO*/
+#Usuario{
+    position: absolute;
+    top: 14.3px
 }
 
 .b{
@@ -77,11 +135,11 @@
 
 /*BARRA DIVISORA*/
 #barra{
-    color: #444;
+    color: #fff;
     font-size: 42px;
     position: relative;
     bottom: 90px;
-    left: 100px;
+    left: 1742px;
 }
 
 /*LINK DE RESGITRO*/
@@ -92,71 +150,100 @@ span a{
     font-size: 13.3px;
     letter-spacing: 0.5px;
     position: absolute;
-    right: 10%;
+    right: 9.8%;
     top: 26px;
 }
 
 #registro{
+    position: relative;
+    color: #fff;
+    left: 1745px;
+    top: -99px;
+}
+
+/*CARRITO_DE_COMPRAS*/
+#carrito{
     position: absolute;
-    right: 68px;
-    top: 26px;
+    right: 360px;
+    top: 115px;
 }
 
-
-
-
-
-
-
-/* HEADER */
-header{
-    display: flex;
-    height: 8vw;
-    padding: 0 50px;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-/* LOGO */
-header img{
-    width: 8%;
+/*AGENDACION_DE _CITAS*/
+.citas{
+    width: 14%;
+    height: 70px;
+    background:linear-gradient( to right, #0F5FA9 77% ,#053463 77%);
+    border-radius: 6px;
+    box-shadow: 0px 1px 4px 0px rgba(68, 68, 68, 1);
     position: relative;
-    top: 15px;
+    left: 1600px;
+    bottom: 110px;
 }
 
-/* HEADER LINK */
-.menu a{
-    color: #444;
+.citas a{
     text-decoration: none;
-    font-weight: bold;
-    padding: 0 30px;
-    font-size: 28.5px;
-    letter-spacing: 0.5px;
-    transition: 0.4s;
+}
+
+.citas h2{
+    color: #fff;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 24px;
+}
+
+.citas img{
     position: relative;
-    right: 450px;
+    left: 215px;
+    top: 12px;
 }
 
-.mostrar_menu,
-.esconder_menu{
-    font-size: 30px;
-    cursor: pointer;
-    display: none;
-    transition: 0.4s;
+/*LINEA_DIVISORA*/
+.linea{
+    width: 100%;
+    height: 7px;
+    background-color: rgba(16, 89, 156, 0.8);
+    position: relative;
+    bottom: 70px;
 }
 
-.mostrar_menu{
-    order: 1;
+/*BANNER*/
+.banner1{
+    width: 98%;
+    position: relative;
+    left: 18px;
+    bottom: 45px;
 }
 
-.menu a:hover,
-.mostrar_menu:hover,
-.esconder_menu:hover{
-    color: #10599C;
-    text-decoration: underline;
-}
+@media(max-width: 748px){
+    .mostrar_menu,
+    .esconder_menu{
+        display: block;}
 
-#check{
-    display: none;
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #444;
+        left: 0;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+    .esconder_menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
 }
