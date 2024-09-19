@@ -1,0 +1,162 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FIRST_FRAME */
+.first_frame{
+    width: 100%;
+    height: 3.4vw;
+    background-color: rgba(16, 89, 156, 0.8);
+    color: #fff;
+}
+
+.contactos{
+    width: 35%;
+    height: 3vw;
+    padding: 0 60px;
+    
+}
+
+
+.contactos img{
+   position: relative;
+   top: 15px;
+}
+
+.gmail{
+    position: relative;
+    left: 110px;
+}
+
+.contactos a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.numero{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.correo{
+    position: relative;
+    left: 120px;
+    top: 6px;
+}
+
+/* REDES_SOCIALES */
+.redes{
+    width: 10%;
+    position: relative;
+    left: 1350px;
+    bottom: 45px;
+}
+
+.b{
+    position: relative;
+    left: 8px;
+    bottom: 1px;
+}
+
+.c{
+    position: relative;
+    left: 15px;
+    top: 1px;
+}
+
+
+.d{
+    position: relative;
+    left: 23px;
+    bottom: 1px;
+}
+
+/*BARRA DIVISORA*/
+#barra{
+    color: #444;
+    font-size: 42px;
+    position: relative;
+    bottom: 90px;
+    left: 100px;
+}
+
+/*LINK DE RESGITRO*/
+span a{
+    text-decoration:none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13.3px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    right: 10%;
+    top: 26px;
+}
+
+#registro{
+    position: absolute;
+    right: 68px;
+    top: 26px;
+}
+
+
+
+
+
+
+
+/* HEADER */
+header{
+    display: flex;
+    height: 8vw;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* LOGO */
+header img{
+    width: 8%;
+    position: relative;
+    top: 15px;
+}
+
+/* HEADER LINK */
+.menu a{
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 30px;
+    font-size: 28.5px;
+    letter-spacing: 0.5px;
+    transition: 0.4s;
+    position: relative;
+    right: 450px;
+}
+
+.mostrar_menu,
+.esconder_menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar_menu{
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar_menu:hover,
+.esconder_menu:hover{
+    color: #10599C;
+    text-decoration: underline;
+}
+
+#check{
+    display: none;
+}
