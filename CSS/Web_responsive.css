@@ -5,7 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -24,9 +23,10 @@ header{
 
 /* LOGO */
 header img{
-    width: 8%;
+    width: 23%;
     position: relative;
-    top: 15px;
+    top: -48px;
+    right: 6%;
 }
 
 /* HEADER LINK */
@@ -121,7 +121,8 @@ header img{
 /*ICONOS DE USUARIO*/
 #Usuario{
     position: absolute;
-    top: 14.3px
+    top: 14.3px;
+    left: 82%;
 }
 
 .b{
@@ -149,7 +150,7 @@ header img{
     font-size: 42px;
     position: relative;
     bottom: 90px;
-    left: 1742px;
+    left: 1730px;
 }
 
 /*LINK DE RESGITRO*/
@@ -167,13 +168,11 @@ span a{
 #registro{
     position: relative;
     color: #fff;
-    left: 1745px;
+    left: 1735px;
     top: -99px;
 }
 
 /*CARRITO_DE_COMPRAS*/
-
-
 #carrito img{
     width: 3%;
     position: absolute;
@@ -208,7 +207,7 @@ span a{
 
 .citas img{
     position: relative;
-    left: 215px;
+    left: 212px;
     top: 12px;
 }
 
@@ -229,85 +228,7 @@ span a{
     bottom: 45px;
 }
 
-@media(max-width: 768px){
-    .contactos{
-        display: none;
-    }
 
-    .redes{
-        display: none;
-    }
-
-    #Usuario{
-        display: none;
-    }
-
-    span{
-        display: none;
-    }
-    /*LOGO*/
-    .logo{
-        width: 15%;
-        position: relative;
-        left: 260px;
-        top: 22px;
-    }
-
-    .citas{
-        display: none;
-    }
-
-    /*HEADER*/
-    .mostrar_menu,
-    .esconder_menu{
-        display: block;
-    }
-
-    .menu{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: #a8a8a8;
-        right: 100%;
-        top: 0;
-        text-align: center;
-        padding: 100px 0px;
-        z-index: 100;
-        transition: 0.8s;
-        color: #fff;
-    }
-    .menu a{
-        display: block;
-        padding: 20px;
-        position: relative;
-        left: 30px;
-        color: #fff;
-    }
-    .esconder_menu{
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }
-    #check:checked ~ .menu{
-        right: 0;
-    }
-
-    #carrito img{
-        width: 6%;
-        position: absolute;
-        left: 90%;
-        top: 5%;
-    }
-    .linea{
-        position: relative;
-        top: 30px;
-    }
-    .banner1{
-        position: relative;
-        top: 40px;
-        left: 7px;
-    }
-}
 
 /*TÍTULO_DE _PRODUCTOS*/
 div h1{
@@ -639,11 +560,783 @@ h3{
     bottom: 90px;
 }
 
+/*BANNER_CUIDADOS_DE_MASCOTAS*/
+#cuidados{
+    width: 97%;
+    border-radius: 5px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+
+/*QUIENES SOMOS*/
+.quienes_somos{
+    width: 96.5%;
+    height: 570px;
+    padding: 2px;
+    top: 70px;
+    position: relative;
+    left: 35px;
+}
+
+.quienes_somos img{
+    float: right;
+    width: 43%;
+    position: relative;
+    bottom: 390px;
+    left: 5px;
+}
+
+.quienes_somos h1{
+    width: 30%;
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.quienes_somos p{
+    width: 49%;
+    font-size: 24px;
+    text-align: justify;
+    position: relative;
+    left: 30px;
+    top: 55px;
+}
+
+.arena{
+    width: 97.8%;
+    position: absolute;
+    left: 19px;
+    top: 2960px;
+}
+
+.container-3{
+    display: flex;
+    width: 97%;
+    align-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 20px;
+    bottom: 90px;
+}
+
+.recomendaciones{
+    width: 28%;
+    height: 20vw;
+    border: 2.9px solid #D9D9D9;
+}
+
+.recomendaciones h1{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-size: 38px;
+    position: relative;
+    left: 65px;
+    top: 25px;
+}
+
+.recomendaciones p{
+    width: 68%;
+    text-align: justify;
+    position: relative;
+    left: 65px;
+    top: 60px;
+}
+
+#dias{
+    width: 15%;
+    position: relative;
+    top: 130px;
+}
+
+#hora{
+    width: 30%;
+    position: relative;
+    left: 280px;
+    top: 90px;
+}
+
+.recomendaciones img{
+    position: relative;
+    left: 380px;
+    top: 100px;
+}
+
+
+/*URGENCIAS 24/7*/
+.recomendaciones-2{
+    width: 28%;
+    border: 2.9px solid #D9D9D9;
+}
+
+.recomendaciones-2 h1{
+    width: 55%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    font-size: 38px;
+    position: relative;
+    left: 110px;
+    top: 25px;
+}
+
+.recomendaciones-2 p{
+    width: 68%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    text-align: justify;
+    position: relative;
+    left: 80px;
+    top: 60px;
+}
+
+#dia{
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+    position: relative;
+    top: 90px;
+}
+
+#horas{
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #444;
+    position: relative;
+    left: 315px;
+    top: 60px;
+}
+.recomendaciones-2 img{
+    position: relative;
+    left: 385px;
+    top: 70px;
+}
+
+.recomendaciones-3{
+    width: 28%;
+    border: 2.9px solid #D9D9D9;
+}
+
+.recomendaciones-3 h1{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: #444;
+    position: relative;
+    left: 140px;
+    top: 25px;
+}
+
+.espacio{
+    width: 25%;
+    font-size: 22px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+}
+
+.espacio p{
+    margin-bottom: 40px;
+}
+
+.espacio-2{
+    width: 25%;
+    font-size: 22px;
+    position: relative;
+    left: 300px;
+    top: -70px;
+}
+
+
+.espacio-2 p{
+    margin-bottom: 40px;
+}
+
+#Dia{
+    
+    width: 8%;
+    position: absolute;
+    bottom: 118px;
+    left: 1320px;
+}
+
+#Hora{
+    width: 10%;
+    position: absolute;
+    bottom: 118px;
+    left: 1560px;
+}
+
+.recomendaciones-3 img{
+    position: absolute;
+    left: 1650px;
+    top: 285px;
+}
+
+/*PIE DE PAGINA*/
+.pie_de_pagina{
+    width: 100%;
+    height: 36vw;
+    background-color: rgba(27, 80, 129, 0.8);
+    position: absolute;
+    top: 3600px;
+}
+
+.logo_pie{
+    width: 32%;
+    position: relative;
+    right: 40px;
+    bottom: 100px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    position: relative;
+    left: 400px;
+    bottom: 310px;
+}
+
+.items-1{
+    width: 30%;
+}
+
+.items-1 img{
+    width: 12%;
+    float: left;
+    position: relative;
+    top: 5px;
+}
+
+.text pre{
+    width: 70%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+}
+
+.items-2{
+    width: 30%;
+    position: relative;
+    right: 80px;
+    bottom: 8px;
+}
+
+.items-2 img{
+    width: 11%;
+    position: relative;
+    top: 15px;
+}
+
+.items-2 p{
+    width: 70%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 80px;
+    bottom: 40px;
+}
+
+.items-3{
+    width: 30%;
+    position: relative;
+    right: 80px;
+    bottom: 8px;
+}
+
+.items-3 img{
+    width: 10%;
+    position: relative;
+    top: 10px;
+}
+
+.items-3 p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+
+.bordes{
+    width: 24%;
+    height: 9vh;
+    border-radius: 100px 5px 100px 80px;
+    border: 2px solid rgba(68, 68, 68, 1);
+    background-color: rgba(68, 68, 68, 1);
+    position: relative;
+    left: 1330px;
+    bottom: 330px;
+}
+
+.bordes p{
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 14px;
+}
+
+hr{
+    width: 90%;
+    height: 4px;
+    background-color: #fff;
+    position: relative;
+    bottom: 290px;
+    left: 92px;
+}
+
+.pie_h{
+    width: 20%;
+    color: #fff;
+    position: relative;
+    bottom: 260px;
+    left: 780px;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes_pie{
+    width: 20%;
+    position: relative;
+    bottom: 240px;
+    left: 750px;
+}
+
+.redes_pie img{
+    width: 14%;
+}
+
+.redes_pie .i{
+    width: 20.5%;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+.redes_pie .y{
+    width: 20%;
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+
+.redes_pie .t{
+    position: relative;
+    right: 5px;
+    bottom: 2px;
+}
+
+.end{
+    width: 100%;
+    height: 7vw;
+    background-color: #444;
+    position: relative;
+    bottom: 205px;
+}
+
+
+
+/* max-width:1900px */
+@media (max-width: 1900px) {
+    /* REDES_SOCIALES */
+    .redes{
+        position: relative;
+        left: 1280px;
+    }
+    
+   /* body{
+        background-color: #027200;
+    }*/
+    /*BARRA DIVISORA*/
+
+    #registro{
+        position: relative;
+        left: 1720px;
+        top: -98px;
+    }
+
+    /*AGENDACION_DE _CITAS*/
+    .citas{
+        position: relative;
+        left: 1580px;
+        bottom: 110px;
+    }
+
+    .quienes_somos h1{
+        width: 32%;
+    }
+
+    .arena{
+        position: absolute;
+        left: 19px;
+        top: 2870px;
+    }
+
+    #hora{
+        width: 31%;   
+        position: relative;
+        left: 265px;
+    }
+
+    .recomendaciones img{
+        position: relative;
+        left: 375px;
+        top: 90px;
+    }
+
+    .recomendaciones-2 img{
+        position: relative;
+        left: 370px;
+        top: 65px;
+    }
+
+    .espacio{
+        width: 27%;
+    }
+
+    #Dia{
+        position: absolute;
+        bottom: 105px;
+        left: 1265px;
+    }
+    
+    #Hora{
+        position: absolute;
+        bottom: 109px;
+        left: 1502px;
+    }
+    
+    .recomendaciones-3 img{
+        position: absolute;
+        left: 1640px;
+        top: 285px;
+    }
+
+    /*PIE DE PAGINA*/
+    .pie_de_pagina{
+        position: absolute;
+        top: 3500px;
+    }
+}
+/* max-width:1910px */
+@media (max-width: 1910px) {
+    /*body{
+        background-color: #027200;
+    }*/
+
+    /*BARRA DIVISORA*/
+    #barra{
+        position: relative;
+        bottom: 87px;
+        left: 1720px;
+    }
+
+    #registro{
+        position: relative;
+        left: 1730px;
+        top: -98px;
+    }
+
+    .arena{
+        position: absolute;
+        left: 19px;
+        top: 2940px;
+    }
+
+    .pie_de_pagina{
+        position: absolute;
+        top: 3570px;
+    }
+}
+/* max-width: 1890px */
+@media (max-width: 1890px){
+    /* body{
+        background-color: #027200;
+    }*/
+     /* REDES_SOCIALES */
+     .redes{
+        position: relative;
+        left: 1185px;
+    }
+    /*CARRITO_DE_COMPRAS*/
+    #carrito img{
+        position: absolute;
+        right: 415px;
+    }
+    /*ICONOS DE USUARIO*/
+    #Usuario{
+        position: absolute;
+        top: 14.3px;
+        left: 79%;
+    }
+
+    /*LINK DE RESGITRO*/
+    span a{
+        position: absolute;
+        right: 12.5%;
+    }
+
+    /*BARRA DIVISORA*/
+    #barra{
+        position: relative;
+        bottom: 87px;
+        left: 1645px;
+    }
+
+    #registro{
+        position: relative;
+        left: 1650px;
+        top: -98px;
+    }
+
+    /*AGENDACION_DE _CITAS*/
+    .citas{
+        position: relative;
+        left: 1510px;
+        bottom: 110px;
+    }
+
+    .citas img{
+        position: relative;
+        left: 205px;
+        top: 12px;
+    }
+
+    .arena{
+        position: absolute;
+        left: 19px;
+        top: 2930px;
+    }
+
+    .recomendaciones-3 img{
+        position: absolute;
+        left: 1630px;
+        top: 285px;
+    }
+
+    /*PIE DE PAGINA*/
+    .pie_de_pagina{
+        position: absolute;
+        top: 3565px;
+    }
+
+    .bordes{
+        position: relative;
+        left: 1305px;
+    }
+}
+
+/* max-width: 1860px */
+@media (max-width: 1860px){
+    /*body{
+       background-color: #027200;
+   }*/
+   /*LINK DE RESGITRO*/
+   span a{
+    position: absolute;
+    right: 12%;
+    }
+
+   /*BARRA DIVISORA*/
+   #barra{
+    position: relative;
+    bottom: 87px;
+    left: 1625px;
+    }
+
+    #registro{
+        position: relative;
+        left: 1630px;
+        top: -97px;
+    }
+
+    /*CARRITO_DE_COMPRAS*/
+    #carrito img{
+        position: absolute;
+        right: 390px;
+        top: 110px;
+    }
+
+    /*AGENDACION_DE _CITAS*/
+    .citas{
+        position: relative;
+        left: 1490px;
+        bottom: 110px;
+    }
+
+    .arena{
+        position: absolute;
+        left: 19px;
+        top: 2885px;
+    }
+
+    /*PIE DE PAGINA*/
+    .pie_de_pagina{
+        position: absolute;
+        top: 3520px;
+    }
+
+
+}
+/* max-width: 1840px */
+@media (max-width: 1840px){
+    /*body{
+       background-color: #027200;
+   }*/
+   
+   /* REDES_SOCIALES */
+   .redes{
+       position: relative;
+       left: 1180px;
+   }
+    /*ICONOS DE USUARIO*/
+    #Usuario{
+        position: absolute;
+        top: 14.3px;
+        left: 80%;
+    }
+
+    /*LINK DE RESGITRO*/
+    span a{
+        position: absolute;
+        right: 11.3%;
+    }
+
+    /*BARRA DIVISORA*/
+    #barra{
+        position: relative;
+        bottom: 87px;
+        left: 1625px;
+    }
+
+    #registro{
+        position: relative;
+        left: 1630px;
+        top: -97px;
+    }
+
+    /*AGENDACION_DE _CITAS*/
+    .citas{
+        position: relative;
+        left: 1490px;
+        bottom: 110px;
+    }
+
+    .citas img{
+        position: relative;
+        left: 202px;
+        top: 12px;
+    }
+
+    /*CARRITO_DE_COMPRAS*/
+    #carrito img{
+        position: absolute;
+        right: 380px;
+        top: 110px;
+    }
+}
+@media(max-width: 768px){
+    .contactos{
+        display: none;
+    }
+
+    .redes{
+        display: none;
+    }
+
+    #Usuario{
+        display: none;
+    }
+
+    span{
+        display: none;
+    }
+    /*LOGO*/
+    .logo{
+        width: 40%;
+        position: relative;
+        left: 220px;
+        top: -15px;
+    }
+
+    .citas{
+        display: none;
+    }
+
+    /*HEADER*/
+    .mostrar_menu,
+    .esconder_menu{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #a8a8a8;
+        right: 100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+        color: #fff;
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+        position: relative;
+        left: 30px;
+        color: #fff;
+    }
+    .esconder_menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+    #carrito img{
+        width: 7%;
+        position: relative;
+        left: 88%;
+        top: -65px;
+    }
+    .linea{
+        position: relative;
+        top: 30px;
+    }
+    .banner1{
+        position: relative;
+        top: 40px;
+        left: 7px;
+    }
+}
+
+
+
+
+/* WEB RESPONSIVE PARA TABLET */
 @media (max-width: 768px) {
     div h1{
         font-size: 25px;
         position: relative;
-        left: 1%;
+        left: 2%;
         top: 40px;
     }
 
@@ -651,7 +1344,7 @@ h3{
         font-size: 14px;
         text-align: justify;
         position: relative;
-        left: 1%;
+        left: 2%;
         top: 45px;
     }
 
@@ -659,28 +1352,227 @@ h3{
         width: 99%;
         display: flex;
         position: relative;
-        top: 68px;
+        top: 75px;
     }
 
-    .producto3{
-        width: 25%;
+    /*PRIMER PRODUCTO*/
+    .producto1{
+        width: 29%;
+        height: 39vh;
         border-radius: 18px;
         position: relative;
-        left: 33%;
+        left: 3%;
+    }
+    
+    .reaccion{
+        width: 18%;
+        position: relative;
+        bottom: 130px;
+        left: 48px;
+    }
+
+    .img-producto-1{
+        width: 53%;
+        position: relative;
+        left: 42px;
+        top: 20px;
+    }
+    .precio{
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: 25px;
+    }
+    
+    .nombre{
+        width: 85%;
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: 30px;
+    }
+    
+    #eleccion{
+        position: relative;
+        left: 18px;
+        top: 40px;
+    }
+    
+    #eleccion p{
+        font-size: 12px;
+        position: relative;
+        left: 5px;
+        bottom: 5px;
+    }
+    
+    #cantidad{
+        width: 30%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 18px;
+        top: 56px;
+        font-size: 14px;
+    }
+    
+    #cantidad p{
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+    
+    #menos{
+        font-size: 15px;
+        position: relative;
+        left: 1px;
+        bottom: 2px;
+    }
+    
+    #comprar{
+        width: 44%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 100px;
+        top: 24px;
+    }
+    
+    #comprar p{
+        font-size: 14px;
+        position: relative;
+        top: 6px;
+        left: 12px;
+    }
+
+    /*SEGUNDO PRODUCTO*/
+    .producto2{
+        width: 29%;
+        height: 39vh;
+        border-radius: 18px;
+        position: relative;
+        left: 6%;
+    }
+    
+    .reaccion2{
+        width: 18%;
+        position: relative;
+        bottom: 125px;
+        left: 22px;
+    }
+
+    .img-producto-2{
+        width: 65%;
+        position: relative;
+        left: 30px;
+        top: 20px;
+    }
+    
+    .descuento{
+        width: 32%;
+        position: absolute;
+        right: 162px;
+        bottom: 330px;
+       
+    }
+    .precio2{
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: 25px;
+    }
+    
+    .nombre2{
+        width: 40%;
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: 30px;
+    }
+    
+    #eleccion2{
+        position: relative;
+        left: 18px;
+        top: 40px;
+    }
+    
+    #eleccion2 p{
+        font-size: 12px;
+        position: relative;
+        left: 5px;
+        bottom: 5px;
+    }
+    
+    #cantidad2{
+        width: 30%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 18px;
+        top: 56px;
+        font-size: 14px;
+    }
+    
+    #cantidad2 p{
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+    
+    #menos2{
+        font-size: 15px;
+        position: relative;
+        left: 1px;
+        bottom: 2px;
+    }
+    
+    #comprar2{
+        width: 44%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 102px;
+        top: 24px;
+    }
+    
+    #comprar2 p{
+        font-size: 14px;
+        position: relative;
+        top: 6px;
+        left: 12px;
+    }
+
+    /*TECER PRODUCTO*/
+    .producto3{
+        width: 29%;
+        height: 38.9vh;
+        border-radius: 18px;
+        position: relative;
+        left: 9%;
     }
 
     .img-producto-3{
         position: relative;
-        left: 15px;
+        left: 10px;
         top: 20px;
     }
-    
+
+    .reaccion3{
+        width: 18%;
+        position: relative;
+        bottom: 46%;
+        left: 76%;
+    }
+
+    #CARRITO{
+        width: 16%;
+        position: absolute;
+        left: 77%;
+        top: 52%;
+    }
 
     .precio3{
         font-size: 10px;
         position: relative;
         left: 20px;
-        bottom: 30px;
+        bottom: 15px;
     }
     
     .nombre3{
@@ -688,26 +1580,263 @@ h3{
         font-size: 10px;
         position: relative;
         left: 20px;
-        top: -25px;
+        top: -10px;
     }
 
     #eleccion3{
         position: relative;
         left: 15px;
-        top: -15px;
+        top: 2px;
     }
     
     #eleccion3 p{
+        font-size: 12px;
         position: relative;
         left: 5px;
         bottom: 5px;
     }
 
-    #tienda{
-        width: 450%;
+    #cantidad3{
+        width: 30%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 16px;
+        top: 18px;
+        font-size: 14px;
+    }
+    
+    #cantidad3 p{
+        margin-top: 7px;
+        margin-left: 9px;
+    }
+    
+    #menos3{
         font-size: 15px;
-        position: absolute;
-        left: -320px;
-        top: 700px;
+        position: relative;
+        left: 1px;
+        bottom: 2px;
+    }
+    
+    #comprar3{
+        width: 44%;
+        height: 28px;
+        border-radius: 7px;
+        position: relative;
+        left: 98px;
+        top: -14px;
+    }
+    
+    #comprar3 p{
+        font-size: 14px;
+        position: relative;
+        top: 6px;
+        left: 12px;
+    }
+
+    #tienda{
+        display: none;
+    }
+
+    #cuidados{
+        width: 95%;
+        position: relative;
+        top: 95px;
+        left: 20px;
     }
 }
+
+/*QUIENES SOMOS*/
+@media (max-width: 768px) {
+    /*QUIENES SOMOS*/
+    .quienes_somos{
+        width: 94.5%;
+        height: 570px;
+        padding: 2px;
+        top: 80px;
+        position: relative;
+        left: 20px;
+    }
+
+    .quienes_somos img{
+        width: 95%;
+        position: relative;
+        top: 60px;
+        left: -17px;
+    }
+
+    .quienes_somos h1{
+        width: 45%;
+        font-size: 34px;
+        position: relative;
+        left: -2px;
+        top: 26px;
+    }
+
+    .quienes_somos p{
+        width: 95%;
+        font-size: 14px;
+        text-align: justify;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    .arena{
+        width: 90%;
+        position: absolute;
+        left: 40px;
+        top: 1860px;
+    }
+}
+
+/*PIE DE PAGINA*/
+@media (max-width: 768px) {
+    .pie_de_pagina{
+        height: 30vh;
+        position: absolute;
+        top: 1940px;
+    }
+    
+    .logo_pie{
+        position: relative;
+        right: 45px;
+        bottom: 50px;
+    }
+    
+    .items{
+        height: 10vh;
+        position: relative;
+        left: 170px;
+        top: -170px;
+    }
+    
+    .items-1{
+        width: 40%;
+        position: relative;
+        left: 180px;
+        bottom: 25px;
+    }
+    
+    .items-1 img{
+        position: relative;
+        top: 65px;
+        right: 220px;
+    }
+    
+    .text pre{
+        font-size: 11px;
+        position: relative;
+        left: -210px;
+        top: 55px;
+    }
+    
+    .items-2{
+        width: 40%;
+        position: relative;
+        right: 95px;
+        top: 10px;
+    }
+    
+    .items-2 img{
+        width: 12%;
+        position: relative;
+        top: 27px;
+    }
+    
+    .items-2 p{
+        width: 85%;
+        font-size: 12px;
+        position: relative;
+        left: 30px;
+        bottom: 4px;
+    }
+    
+    .items-3{
+        position: relative;
+        right: 86px;
+        top: -2px;
+    }
+    
+    .items-3 img{
+        width: 14%;
+        position: relative;
+        top: 35px;
+    }
+    
+    .items-3 p{
+        font-size: 11px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+    
+    .bordes{
+        position: relative;
+        left: 500px;
+        bottom: 190px;
+    }
+    
+    .bordes p{
+        font-size: 9.5px;
+        color: #fff;
+        position: relative;
+        left: 20px;
+        top: 5px;
+    }
+    
+    hr{
+        width: 98%;
+        height: 3px;
+        position: relative;
+        bottom: 175px;
+        left: 1.2%;
+    }
+    
+    .pie_h{
+        color: #fff;
+        position: relative;
+        top: -160px;
+        left: 310px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .redes_pie{
+        position: relative;
+        bottom: 150px;
+        left: 310px;
+    }
+
+    .redes_pie .i{
+        width: 20.5%;
+        position: relative;
+        top: 0.4px;
+        left: 1px;
+    }
+    
+    .redes_pie .y{
+        width: 21%;
+        position: relative;
+        right: 5px;
+        top: -0.1px;
+    }
+    
+    .redes_pie .t{
+        width: 16%;
+        position: relative;
+        right: 6px;
+        bottom: 0.2px;
+    }
+    
+    .end{
+        width: 100%;
+        height: 8vw;
+        background-color: #444;
+        position: relative;
+        bottom: 140px;
+    }
+}
+
+
+
