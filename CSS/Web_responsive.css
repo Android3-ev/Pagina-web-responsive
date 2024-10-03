@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -980,8 +981,6 @@ hr{
         width: 32%;
     }
 
-
-
     .arena{
         position: absolute;
         left: 19px;
@@ -1864,6 +1863,371 @@ hr{
         left: 495px;
     }
 }
+
+/* max-width: 700px */
+@media (max-width: 700px){
+    /*LOGO*/
+    .logo{
+        position: relative;
+        left: 190px;
+        top: -2px;
+    }
+    h3{
+        font-size: 13.5px;
+    }
+
+    /*PRIMER PRODUCTO*/
+    .producto1{
+        height: 37vh;
+    }
+
+    .img-producto-1{
+        width: 50%;
+        position: relative;
+        left: 42px;
+        top: 25px;
+    }
+
+    .precio{
+        position: relative;
+        top: 32px;
+    }
+
+    .reaccion{
+        position: relative;
+        bottom: 104px;
+        left: 48px;
+    }
+
+    .nombre{
+        width: 75%;
+        position: relative;
+        left: 20px;
+        top: 36px;
+    }
+
+    #eleccion{
+        position: relative;
+        left: 18px;
+        top: 48px;
+    }
+
+    #cantidad{
+        position: relative;
+        top: 62px;
+    }
+
+    #comprar{
+        position: relative;
+        left: 93px;
+        top: 30px;
+    }
+
+    /*SEGUNDO PRODUCTO*/
+    .producto2{
+        height: 37vh;
+    }
+    .reaccion2{
+        width: 18%;
+        position: relative;
+        bottom: 108px;
+        left: 18px;
+    }
+
+    .descuento{
+        position: absolute;
+        right: 150px;
+        bottom: 318px;
+    }
+
+    #eleccion2{
+        position: relative;
+        left: 18px;
+        top: 42px;
+    }
+    #comprar2{
+        position: relative;
+        left: 93px;
+        top: 24px;
+    }
+    /*TECER PRODUCTO*/
+    .producto3{
+        width: 29%;
+        height: 37vh;
+        position: relative;
+        left: 9%;
+    }
+
+    .reaccion3{
+        position: relative;
+        bottom: 43%;
+        left: 76%;
+    }
+
+    #CARRITO{
+        position: absolute;
+        left: 75%;
+        top: 54%;
+    }
+
+    #comprar3{
+        position: relative;
+        left: 90px;
+        top: -14px;
+    }
+
+    .quienes_somos h1{
+        width: 48%;
+    }
+
+    .arena{
+        position: absolute;
+        left: 37px;
+        top: 1782px;
+    }
+
+    .pie_de_pagina{
+        height: 30vh;
+        position: absolute;
+        top: 1860px;
+    }
+
+    .items-1{
+        position: relative;
+        left: 210px;
+    }
+
+    .items-2{
+        position: relative;
+        right: 20px;
+    }
+
+    .items-3{
+        position: relative;
+        right: 370px;
+        top: 60px;
+    }
+
+    .items-3 p{
+        position: relative;
+        top: 13px;
+    }
+
+    .bordes{
+        width: 33%;
+        position: relative;
+        left: 440px;
+        bottom: 190px;
+    }
+
+    .pie_h{
+        position: relative;
+        top: -160px;
+        left: 280px;
+    }
+    
+    .redes_pie{
+        position: relative;
+        bottom: 150px;
+        left: 285px;
+    }
+}
+/* max-width: 677px */
+@media (max-width: 677px){
+    /*LOGO*/
+    .logo{
+    position: relative;
+    left: 180px;
+    top: -2px;
+    }
+
+    /*HEADER*/
+    .mostrar_menu,
+    .esconder_menu{
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+
+    #carrito img{
+        width: 6%;
+        position: relative;
+        left: 85%;
+        top: -28px;
+    }
+
+    div h1{
+        font-size: 24px;
+    }
+
+    h3{
+        width: 60%;
+        font-size: 14px;
+        text-align: justify;
+        position: relative;
+        left: 2%;
+        top: 15px;
+    }
+
+    /*PRIMER PRODUCTO*/
+    .producto1{
+        width: 29%;
+        height: 36vh;
+        border-radius: 18px;
+        position: relative;
+        left: 3%;
+    }
+
+    .reaccion{
+        width: 17%;
+        position: relative;
+        bottom: 95px;
+        left: 48px;
+    }
+
+    .img-producto-1{
+        width: 48%;
+        position: relative;
+        left: 45px;
+        top: 30px;
+    }
+
+    .precio{
+        position: relative;
+        top: 35px;
+    }
+
+    .nombre{
+        width: 50%;
+        font-size: 10px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    #CARRITO{
+        width: 16%;
+        position: absolute;
+        left: 76%;
+        top: 52%;
+    }
+
+    #eleccion{
+        height: 4vh;
+        position: relative;
+        left: 15px;
+        top: 52px;
+    }
+
+    #cantidad{
+        position: relative;
+        left: 15px;
+        top: 67px;
+    }
+    
+    #comprar{
+        position: relative;
+        left: 88px;
+        top: 35px;
+    }
+
+    /*SEGUNDO PRODUCTO*/
+    .producto2{
+        width: 29%;
+        height: 36vh;
+    }
+    
+    .reaccion2{
+        width: 17%;
+        position: relative;
+        bottom: 108px;
+    }
+
+    .img-producto-2{
+        width: 65%;
+    }
+    
+    .descuento{
+        width: 30%;
+        position: absolute;
+        right: 148px;
+        bottom: 305px;
+       
+    }
+    
+    #eleccion2{
+        height: 4vh;
+        position: relative;
+        left: 15px;
+        
+    }
+
+    #cantidad2{
+        position: relative;
+        left: 15px;
+    }
+    
+    #comprar2{
+        position: relative;
+        left: 88px;
+        top: 24px;
+    }
+
+    /*TECER PRODUCTO*/
+    .producto3{
+        width: 29%;
+        height: 36vh;
+        border-radius: 18px;
+        position: relative;
+        left: 9%;
+    }
+    .reaccion3{
+        width: 17%;
+        position: relative;
+        bottom: 43%;
+        left: 76%;
+    }
+
+    #eleccion3{
+        height: 4vh;
+        position: relative;
+        left: 15px;
+        top: 2px;
+    }
+
+    #cantidad3{
+        position: relative;
+        top: 15px;
+    }
+    
+    #comprar3{
+        position: relative;
+        left: 86px;
+        top: -17px;
+    }
+    
+    #comprar3 p{
+        font-size: 13.5px;
+        position: relative;
+        top: 7px;
+        left: 12px;
+    }
+    
+    .quienes_somos h1{
+        width: 52%;
+        font-size: 32px;
+        position: relative;
+        left: -2px;
+        top: 26px;
+    }
+
+    .quienes_somos p{
+        left: 10px;
+        top: 40px;
+    }
+
+    
+}
 /* max-width: 675px HEADER */
 @media (max-width: 675px){
     .logo{
@@ -2125,203 +2489,7 @@ hr{
     }
 }
 
-/* max-width: 677px */
-@media (max-width: 677px){
 
-    /*LOGO*/
-    .logo{
-    position: relative;
-    left: 180px;
-    top: -2px;
-    }
-
-    /*HEADER*/
-    .mostrar_menu,
-    .esconder_menu{
-        display: block;
-        position: relative;
-        top: 20px;
-    }
-
-    #carrito img{
-        width: 6%;
-        position: relative;
-        left: 85%;
-        top: -28px;
-    }
-
-    div h1{
-        font-size: 24px;
-    }
-
-    h3{
-        width: 60%;
-        font-size: 14px;
-        text-align: justify;
-        position: relative;
-        left: 2%;
-        top: 15px;
-    }
-
-    /*PRIMER PRODUCTO*/
-    .producto1{
-        width: 29%;
-        height: 36vh;
-        border-radius: 18px;
-        position: relative;
-        left: 3%;
-    }
-
-    .reaccion{
-        width: 17%;
-        position: relative;
-        bottom: 95px;
-        left: 48px;
-    }
-
-    .img-producto-1{
-        width: 48%;
-        position: relative;
-        left: 45px;
-        top: 30px;
-    }
-
-    .precio{
-        position: relative;
-        top: 35px;
-    }
-
-    .nombre{
-        width: 50%;
-        font-size: 10px;
-        position: relative;
-        left: 20px;
-        top: 40px;
-    }
-
-    #CARRITO{
-        width: 16%;
-        position: absolute;
-        left: 76%;
-        top: 52%;
-    }
-
-    #eleccion{
-        height: 4vh;
-        position: relative;
-        left: 15px;
-        top: 52px;
-    }
-
-    #cantidad{
-        position: relative;
-        left: 15px;
-        top: 67px;
-    }
-    
-    #comprar{
-        position: relative;
-        left: 88px;
-        top: 35px;
-    }
-
-    /*SEGUNDO PRODUCTO*/
-    .producto2{
-        width: 29%;
-        height: 36vh;
-    }
-    
-    .reaccion2{
-        width: 17%;
-        position: relative;
-        bottom: 108px;
-    }
-
-    .img-producto-2{
-        width: 65%;
-    }
-    
-    .descuento{
-        width: 30%;
-        position: absolute;
-        right: 148px;
-        bottom: 305px;
-       
-    }
-    
-    #eleccion2{
-        height: 4vh;
-        position: relative;
-        left: 15px;
-        
-    }
-
-    #cantidad2{
-        position: relative;
-        left: 15px;
-    }
-    
-    #comprar2{
-        position: relative;
-        left: 88px;
-        top: 24px;
-    }
-
-    /*TECER PRODUCTO*/
-    .producto3{
-        width: 29%;
-        height: 36vh;
-        border-radius: 18px;
-        position: relative;
-        left: 9%;
-    }
-    .reaccion3{
-        width: 17%;
-        position: relative;
-        bottom: 43%;
-        left: 76%;
-    }
-
-    #eleccion3{
-        height: 4vh;
-        position: relative;
-        left: 15px;
-        top: 2px;
-    }
-
-    #cantidad3{
-        position: relative;
-        top: 15px;
-    }
-    
-    #comprar3{
-        position: relative;
-        left: 86px;
-        top: -17px;
-    }
-    
-    #comprar3 p{
-        font-size: 13.5px;
-        position: relative;
-        top: 7px;
-        left: 12px;
-    }
-    
-    .quienes_somos h1{
-        width: 52%;
-        font-size: 32px;
-        position: relative;
-        left: -2px;
-        top: 26px;
-    }
-
-    .quienes_somos p{
-        left: 10px;
-        top: 40px;
-    }
-
-    
-}
 
 /* max-width: 665px */
 @media (max-width: 665px){
@@ -2354,4 +2522,913 @@ hr{
         position: relative;
         bottom: 135px;
     }
+}
+
+/* max-width: 650px */
+@media (max-width: 650px){
+    .esconder_menu{
+        position: absolute;
+        top: 35px;
+    }
+
+    div h1{
+        font-size: 23px;
+        position: relative;
+        left: 2%;
+        top: 10px;
+    }
+
+    .arena{
+        position: absolute;
+        left: 35px;
+        top: 1698px;
+    }
+
+    .pie_de_pagina{
+        height: 30vh;
+        position: absolute;
+        top: 1770px;
+    }
+
+    .bordes{
+        position: relative;
+        left: 399px;
+        bottom: 190px;
+    }
+
+    .end{
+        height: 8.2vw;
+        background-color: #444;
+        position: relative;
+        bottom: 130px;
+    }
+}
+
+/* max-width: 625px HEADER*/
+@media (max-width: 625px){
+    /*LOGO*/
+    .logo{
+        position: relative;
+        left: 165px;
+        top: -2px;
+    }
+
+     /*HEADER*/
+     .mostrar_menu,
+     .esconder_menu{
+         display: block;
+         position: relative;
+         top: 20px;
+     }
+
+     .esconder_menu{
+        position: absolute;
+        top: 38px;
+        right: 40px;
+    }
+
+    div h1{
+        font-size: 21px;
+        position: relative;
+        left: 2%;
+        top: 10px;
+    }
+}
+
+/* max-width: 625px PRODUCTOS*/
+@media (max-width: 625px){
+    .producto1{
+        width: 40%;
+        height: 40vh;
+        border-radius: 18px;
+        position: relative;
+        left: 6.5%;
+    }
+
+    .reaccion{
+        width: 17%;
+        position: relative;
+        bottom: 140px;
+        left: 58px;
+    }
+
+    .img-producto-1{
+        width: 50%;
+        position: relative;
+        left: 48px;
+        top: 20px;
+    }
+
+    .precio{
+        font-size: 12px;
+        position: relative;
+        top: 24px;
+    }
+    
+    .nombre{
+        width: 60%;
+        font-size: 12px;
+        position: relative;
+        left: 20px;
+        top: 30px;
+    }
+
+    #eleccion{
+        position: relative;
+        left: 18px;
+        top: 40px;
+    }
+
+    #cantidad{
+        width: 27%;
+        position: relative;
+        left: 18px;
+        top: 52px;
+    }
+
+    #comprar{
+        width: 44%;
+        position: relative;
+        left: 109px;
+        top: 20px;
+    }
+
+    #comprar p{
+        position: relative;
+        left: 22px;
+    }
+
+    /*SEGUNDO PRODUCTO*/
+    .producto2{
+        width: 40%;
+        height: 40vh;
+        border-radius: 18px;
+        position: relative;
+        left: 13.2%;
+    }
+
+    .reaccion2{
+        width: 17%;
+        position: relative;
+        bottom: 134px;
+        left: 35px;
+    }
+
+    .img-producto-2{
+        width: 61%;
+        position: relative;
+        left: 46px;
+        top: 20px;
+    }
+
+    .descuento{
+        width: 35%;
+        position: absolute;
+        right: 185px;
+        bottom: 330px;
+       
+    }
+
+    .precio2{
+        font-size: 12px;
+        position: relative;
+        top: 25px;
+    }
+    
+    .nombre2{
+        width: 60%;
+        font-size: 12px;
+        position: relative;
+        left: 20px;
+        top: 35px;
+    }
+
+    #eleccion2{
+        position: relative;
+        left: 18px;
+        top: 46px;
+    }
+
+    #cantidad2{
+        width: 27%;
+        position: relative;
+        left: 18px;
+        top: 58px;
+    }
+
+    #comprar2{
+        width: 44%;
+        position: relative;
+        left: 109px;
+        top: 26px;
+    }
+
+    #comprar2 p{
+        position: relative;
+        left: 22px;
+    }
+    /*TECER PRODUCTO*/
+    .producto3{
+        display: none;
+    }
+
+    .arena{
+        width: 90%;
+        position: absolute;
+        left: 34px;
+        top: 1690px;
+    }
+
+    .items-1{
+        position: relative;
+        left: 165px;
+    }
+
+    .text pre{
+        font-size: 10px;
+        position: relative;
+        left: -210px;
+        top: 55px;
+    }
+
+    .items-2{
+        position: relative;
+        right: 65px;
+        top: 16px;
+    }
+
+    .items-2 p{
+        font-size: 10px;
+        position: relative;
+        left: 28px;
+        bottom: -2px;
+    }
+
+    .items-3{
+        position: relative;
+        left: -370px;
+        top: 60px;
+    }
+
+    .items-3 p{
+        font-size: 10px;
+        position: relative;
+        top: 15px;
+    }
+
+    .pie_de_pagina{
+        height: 30vh;
+        position: absolute;
+        top: 1752px;
+    }
+
+    .bordes{
+        width: 35%;
+        height: 5vh;
+        position: relative;
+        left: 370px;
+        bottom: 190px;
+    }
+
+    .bordes p{
+        font-size: 8.5px;
+    }
+
+    .pie_h{
+        position: relative;
+        left: 240px;
+        font-size: 18px;
+    }
+
+    .redes_pie{
+        position: relative;
+        bottom: 150px;
+        left: 250px;
+    }
+
+    .end{
+        width: 100%;
+        height: 10vw;
+        background-color: #444;
+        position: relative;
+        bottom: 130px;
+    }
+}
+
+/* max-width: 605px*/
+@media (max-width: 605px){
+    .quienes_somos h1{
+        width: 52%;
+    }
+
+    .arena{
+        position: absolute;
+        top: 1680px;
+    }
+
+    .pie_de_pagina{
+        height: 29vh;
+        position: absolute;
+        top: 1740px;
+    }
+
+    .items-1{
+        position: relative;
+        left: 165px;
+        top: -8px;
+    }
+
+    .items-2{
+        position: relative;
+        right: 65px;
+        top: 25px;
+    }
+    .items-3{
+        position: relative;
+        left: -362px;
+        top: 65px;
+    }
+    .bordes{
+        width: 35%;
+        height: 5vh;
+        position: relative;
+        left: 370px;
+        bottom: 180px;
+    }
+
+    .bordes p{
+        font-size: 8.4px;
+    }
+
+    hr{
+        height: 2px;
+        position: relative;
+        bottom: 168px;
+        left: 1.2%;
+    }
+
+    .pie_h{
+        position: relative;
+        left: 240px;
+        font-size: 18px;
+    }
+
+    .redes_pie{
+        position: relative;
+        bottom: 150px;
+        left: 250px;
+    }
+}
+
+/* max-width: 582px*/
+@media (max-width: 582px){
+
+    .logo{
+        position: relative;
+        left: 150px;
+    }
+    div h1{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+    .tres-productos{
+        width: 99%;
+        display: flex;
+        position: relative;
+        top: 35px;
+    }
+    .reaccion{
+        position: relative;
+        left: 54px;
+        bottom: 128px;
+    }
+
+    #cantidad{
+        position: relative;
+        left: 18px;
+        top: 56px;
+        font-size: 14px;
+    }
+
+    #comprar{
+        position: relative;
+        left: 102px;
+        top: 24px;
+    }
+
+    .reaccion2{
+        position: relative;
+        left: 35px;
+        bottom: 128px;
+    }
+    #cantidad2{
+        position: relative;
+        left: 18px;
+        top: 61px;
+        font-size: 14px;
+    }
+
+    #comprar2{
+        position: relative;
+        left: 102px;
+        top: 29px;
+    }
+
+    .descuento{
+        width: 35%;
+        position: absolute;
+        right: 172px;
+        bottom: 330px;
+       
+    }
+    .quienes_somos h1{
+        width: 52%;
+        font-size: 28px;
+    }
+
+    .quienes_somos p{
+        width: 92%;
+        position: relative;
+        left: 15px;
+        top: 40px;
+    }
+    .arena{
+        position: absolute;
+        left: 33px;
+        top: 1635px;
+    }
+
+    .pie_de_pagina{
+        height: 27vh;
+        position: absolute;
+        top: 1695px;
+    }
+
+    .logo_pie{
+        position: relative;
+        right: 25px;
+        top: -30px;
+    }
+
+    .items-1{
+        position: relative;
+        left: 165px;
+        top: 5px;
+    }
+
+    .items-2{
+        position: relative;
+        right: 65px;
+        top: 38px;
+    }
+
+    .items-3{
+        position: relative;
+        left: -350px;
+        top: 78px;
+    }
+    .bordes{
+        width: 34%;
+        height: 4.2vh;
+        position: relative;
+        left: 360px;
+        bottom: 160px;
+    }
+
+    .bordes p{
+        font-size: 7px;
+    }
+    hr{
+        width: 98%;
+        height: 2px;
+        position: relative;
+        bottom: 150px;
+        left: 1.2%;
+    }
+    .pie_h{
+        width: 22%;
+        position: relative;
+        top: -140px;
+        left: 240px;
+    }
+
+    .redes_pie{
+        position: relative;
+        bottom: 135px;
+        left: 248px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .logo{
+        width: 55%;
+        position: relative;
+        left: 100px;
+        top: -6px;
+    }
+
+    .mostrar_menu,
+    .esconder_menu{
+        display: block;
+        position: relative;
+        top: 20px;
+    }
+    .esconder_menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #carrito img{
+        width: 8%;
+        position: relative;
+        left: 86%;
+        top: -20px;
+    }
+
+    div h1{
+        font-size: 16px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+}
+/*MAX_WIDTH: 500PX PRODUCTOS*/
+@media (max-width: 500px){
+    .tres-productos{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 40px;
+    }
+
+    /*PRIMER PRODUCTO*/
+    .producto1{
+        width: 60%;
+        height: 46vh;
+        border-radius: 16px;
+        position: relative;
+        left: 1%;
+    }
+
+    .img-producto-1{
+        width: 48%;
+        position: relative;
+        left: 70px;
+        top: 20px;
+    }
+
+    .reaccion{
+        width: 16%;
+        position: relative;
+        bottom: 165px;
+        left: 80px;
+    }
+
+    #CARRITO{
+        width: 14%;
+        position: absolute;
+        left: 77%;
+        top: 59%;
+    }
+
+    .precio{
+        font-size: 12px;
+        position: relative;
+        left: 24px;
+        top: 28px;
+    }
+
+    .nombre{
+        width: 55%;
+        font-size: 12px;
+        position: relative;
+        left: 24px;
+        top: 35px;
+    }
+
+    #eleccion{
+        position: relative;
+        left: 22px;
+        top: 47px;
+    }
+
+    #eleccion p{
+        font-size: 14px;
+        position: relative;
+        left: 7px;
+        top: 11px;
+    }
+
+    #cantidad{
+        height: 30px;
+        position: relative;
+        left: 22px;
+        top: 64px;
+        font-size: 14px;
+    }
+
+    #cantidad p{
+        margin-left: 13px;
+    }
+
+    #menos{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        bottom: 4px;
+    }
+
+    #comprar{
+        height: 30px;
+        position: relative;
+        left: 131px;
+        top: 30px;
+    }
+
+    #comprar p{
+        position: relative;
+        top: 7px;
+        left: 32px;
+    }
+
+    /*SEGUNDO PRODUCTO*/
+    .producto2{
+        width: 60%;
+        height: 46vh;
+        border-radius: 16px;
+        position: relative;
+        left: 1%;
+        top: 30px;
+    }
+
+    .descuento{
+        width: 37%;
+        position: absolute;
+        right: 240px;
+        bottom: 360px;
+       
+    }
+
+    .img-producto-2{
+        position: relative;
+        top: 30px;
+    }
+
+    .reaccion2{
+        width: 16%;
+        position: relative;
+        bottom: 160px;
+        left: 42px;
+    }
+
+    .precio2{
+        font-size: 13px;
+        position: relative;
+        left: 24px;
+        top: 42px;
+    }
+
+    .nombre2{
+        font-size: 12px;
+        position: relative;
+        left: 24px;
+        top: 50px;
+    }
+
+    #eleccion2{
+        position: relative;
+        left: 22px;
+        top: 65px;
+    }
+    #eleccion2 p{
+        font-size: 14px;
+        position: relative;
+        left: 7px;
+        top: 11px;
+    }
+
+    #cantidad2{
+        height: 30px;
+        position: relative;
+        left: 22px;
+        top: 84px;
+        font-size: 14px;
+    }
+
+    #cantidad2 p{
+        margin-left: 13px;
+    }
+
+    #menos2{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        bottom: 4px;
+    }
+
+    #comprar2{
+        height: 30px;
+        position: relative;
+        left: 131px;
+        top: 50px;
+    }
+
+    #comprar2 p{
+        position: relative;
+        top: 7px;
+        left: 32px;
+    }
+
+    /*TECER PRODUCTO*/
+    .producto3{
+        display: block;
+        width: 60%;
+        height: 46vh;
+        border-radius: 16px;
+        position: relative;
+        left: 1%;
+        top: 60px;
+    }
+    .img-producto-3{
+        position: relative;
+        left: 16px;
+        top: 25px;
+    }
+
+    .reaccion3{
+        width: 16%;
+        position: relative;
+        bottom: 230px;
+        left: 218px;
+    }
+
+    .precio3{
+        font-size: 13px;
+        position: relative;
+        left: 24px;
+        top: -18px;
+    }
+
+    .nombre3{
+        width: 58%;
+        font-size: 12px;
+        position: relative;
+        left: 24px;
+        top: -8px;
+    }
+
+    #eleccion3{
+        position: relative;
+        left: 22px;
+        top: 5px;
+    }
+    #eleccion3 p{
+        font-size: 14px;
+        position: relative;
+        left: 7px;
+        top: 11px;
+    }
+
+    #cantidad3{
+        height: 30px;
+        position: relative;
+        left: 22px;
+        top: 20px;
+        font-size: 14px;
+    }
+
+    #cantidad3 p{
+        margin-left: 13px;
+    }
+
+    #menos3{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        bottom: 4px;
+    }
+
+    #comprar3{
+        height: 30px;
+        position: relative;
+        left: 131px;
+        top: -14px;
+    }
+
+    #comprar3 p{
+        position: relative;
+        top: 7px;
+        left: 32px;
+    }
+
+    #cuidados{
+        width: 95%;
+        position: relative;
+        top: 120px;
+        left: 12px;
+    }
+
+    /*QUIENES SOMOS*/
+    .quienes_somos{
+        width: 94.5%;
+        height: 75vh;
+        padding: 2px;
+        top: 100px;
+        position: relative;
+        left: 20px;
+    }
+
+    .quienes_somos p{
+        width: 88%;
+        font-size: 14px;
+        text-align: justify;
+        position: relative;
+        left: 20px;
+        top: 35px;
+    }
+
+    .quienes_somos h1{
+        width: 65%;
+        font-size: 30px;
+        position: relative;
+        left: -2px;
+        top: 26px;
+    }
+
+    .quienes_somos img{
+        position: relative;
+        top: 50px;
+    }
+    .arena{
+        width: 90%;
+        position: absolute;
+        left: 28px;
+        top: 2560px;
+    }
+
+    .pie_de_pagina{
+        height: 26vh;
+        position: absolute;
+        top: 2615px;
+    }
+
+    .items-1{
+        position: relative;
+        left: 150px;
+        top: 15px;
+    }
+
+    .items-2{
+        position: relative;
+        right: 65px;
+        top:45px;
+    }
+    .items-3{
+        position: relative;
+        left: -330px;
+        top: 100px;
+    }
+
+    .bordes{
+        width: 27%;
+        height: 6vh;
+        border-radius: 20px 20px 20px 20px;
+        border: 2px solid rgba(68, 68, 68, 1);
+        background-color: rgba(68, 68, 68, 1);
+        position: relative;
+        left: 340px;
+        top: -170px;
+    }
+
+    .pie_h{
+        width: 20%;
+        color: #fff;
+        font-size: 15px;
+        position: relative;
+        left: 196px;
+    }
+
+    .redes_pie{
+        width: 25%;
+        position: relative;
+        left: 200px;
+    }
+
+    .end{
+        width: 100%;
+        height: 10vw;
+        background-color: #444;
+        position: relative;
+        bottom: 125px;
+    }
+
+
 }
